@@ -1,0 +1,11 @@
+SELECT *
+FROM names
+
+DELETE FROM names
+WHERE id = 2
+
+INSERT INTO names (name) VALUES ('riff'), ('brown'), ('subi')
+
+UPDATE names.names SET
+name = 'creed'
+WHERE id = 5
