@@ -1,0 +1,36 @@
+
+INSERT INTO users (first_name, last_name, email) VALUES ('sharif', 'muyanja', 'riff@yahoo.com');
+INSERT INTO users (first_name, last_name, email) VALUES ('subi', 'brown', 'sbrown@yahoo.com');
+INSERT INTO users (first_name, last_name, email) VALUES ('imran', 'dino', 'idino100@yahoo.com');
+
+
+SELECT *
+FROM users
+
+
+SELECT *
+FROM users
+WHERE email = 'riff@yahoo.com';
+
+
+SELECT *
+FROM users
+WHERE id = 3;
+
+
+UPDATE users SET
+last_name = 'Pancakes'
+WHERE id = 3;
+
+
+DELETE from users
+WHERE id = 2;
+
+
+SELECT first_name
+FROM users
+
+
+SELECT *
+FROM users
+ORDER BY first_name DESC;
